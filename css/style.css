@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(192, 225, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(255, 242, 251);
+    padding: 1rem;
+    line-height: 1.3;
+}
+
+.logo{
+    width:150px;
+}
+
+section {
+    padding: 1rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+
+.banner {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: top center;
+    min-height: 400px;
+    min-width: 200px
+}
+
+.banner h3 {
+    color: white;
+    font-size: 3rem;
+    
+    font-weight:bold;
+    text-transform:uppercase;
+    text-shadow: lightblue 3px 3px 5px;
+    text-align:center;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+
+
+.band-members {
+    float: left;
+    margin-right: 1.5rem;
+    border: 18px solid white;
+}
+
+.music-video {
+    background-color: rgb(242, 253, 255)
+}
+
+
+.thevideo {
+    float: right;
+    width: 460px;
+    height: 215px;
+}
+
+.clear {
+    clear:both;
+    width:100%;
+}
+
+footer {
+    background-color: rgb(255, 238, 246);
+    color:black;
+    text-align: center;
+    padding:0.5rem;
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: rgb(226, 43, 202);
+}
+
+a:active {
+    color: rgb(255, 23, 205);
+}
